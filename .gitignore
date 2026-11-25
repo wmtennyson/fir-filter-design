@@ -1,0 +1,26 @@
+# Simulator outputs
+work/
+transcript
+vsim.wlf
+*.vcd
+*.fst
+*.vvp
+
+# Synthesis-generated data
+*.ddc
+*.svf
+*.pvl
+*.syn
+*.mr
+alib-*/
+command.log
+filenames.log
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local build outputs
+build/
