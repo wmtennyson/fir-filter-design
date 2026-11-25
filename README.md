@@ -49,7 +49,7 @@ Install Icarus Verilog, then run:
 make sim
 ```
 
-The Makefile checks widths 1, 4, and 16. GitHub Actions is configured to run the same checks on pushes and pull requests. RTL simulation and synthesis results are pending.
+The Makefile checks widths 1, 4, and 16. GitHub Actions is configured to run the same checks on pushes and pull requests. [The first GitHub Actions simulation run passed](https://github.com/wmtennyson/fir-filter-design/actions/runs/45711021919), checking widths 1, 4, and 16. Synthesis results are pending.
 
 See [collaboration setup](GITHUB_SETUP.md) to clone the project and run the checks.
 
@@ -97,7 +97,7 @@ Recommended additional checks include all-zero samples, maximum inputs, alternat
 
 See [the synthesis workflow](docs/SYNTHESIS.md) for the report commands and metric table. The 65 nm library, official constraints, and course setup scripts are external dependencies and are not included.
 
-**Results pending:** functional simulation, synthesized netlists, and measured timing, power, and area results will be added as development progresses. The 2 GHz value is our synthesis target.
+**Verification:** the automated functional simulation passed for widths 1, 4, and 16. Synthesized netlists and measured timing, power, and area results are pending. The 2 GHz value is our synthesis target.
 
 ## Team and source attribution
 

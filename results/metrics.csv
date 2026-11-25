@@ -1,3 +1,3 @@
 architecture,clock_period_ns,worst_setup_slack_ps,total_power,leakage_power,combinational_area,combinational_cell_count,total_area,status
 reference,0.5,,,,,,,pending synthesis
-csa,0.5,,,,,,,pending simulation and synthesis
+csa,0.5,,,,,,,pending synthesis
