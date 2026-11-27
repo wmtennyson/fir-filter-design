@@ -1,6 +1,6 @@
 # 4-Tap FIR Filter Design
 
-An ongoing digital design project by William Tennyson and Aydan Olaez for ECE 260A at UC San Diego. We are building and optimizing a registered, 16-bit, four-tap FIR datapath in SystemVerilog, with functional verification and a 65 nm synthesis flow.
+Building and optimizing a registered, 16-bit, four-tap FIR datapath in SystemVerilog, with functional verification and a 65 nm synthesis flow.
 
 **Team:** William Tennyson and Aydan Olaez.
 
